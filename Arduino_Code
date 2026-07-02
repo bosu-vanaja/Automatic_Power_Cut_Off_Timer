@@ -1,0 +1,36 @@
+String a; // Variable to store the incoming string
+//int led = 13; // LED pin
+#include<Servo.h>
+
+Servo myServo;
+
+void setup() {
+  Serial.begin(9600); // Initialize serial communication
+//  pinMode(led, OUTPUT); // Set the LED pin as OUTPUT
+myServo.attach(9);
+}
+
+void loop() {
+  // Check if data is available on Serial
+  if (Serial.available()) {
+    a = Serial.readString(); // Read the incoming string
+    a.trim(); // Remove any trailing whitespace or newline characters
+
+    Serial.println(a); // Print the received string for debugging
+
+    // Turn the LED ON if the received string is "ON"
+    if (a == "ON") {
+//      digitalWrite(led, "ON"); // Turn the LED ON
+  myServo.write(90);
+      //Serial.println("LED is ON");
+    }
+    // Turn the LED OFF if the received string is "OFF"
+    else if (a == "OFF") {
+      //digitalWrite(led, "OFF"); // Turn the LED OFF
+      //Serial.println("LED is OFF");
+      myServo.write(0);
+    } else {
+      Serial.println("Invalid command");
+    }
+  }
+}
