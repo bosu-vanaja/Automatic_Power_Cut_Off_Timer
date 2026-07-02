@@ -77,7 +77,7 @@ Automatic-Power-Cut-Off-Timer/
 
 ### Hardware Setup
 
-<img src="Project_Demo/Project_Setup.jpg" alt="Hardware Setup" width="600">
+<img src="Project_Demo/Project_Setup.jpeg" alt="Hardware Setup" width="600">
 
 ### Circuit Diagram
 
@@ -85,7 +85,7 @@ Automatic-Power-Cut-Off-Timer/
 
 ### Mobile Application Interface
 
-<img src="Project_Demo/App_Interface.png" alt="Mobile App Interface" width="250">
+<img src="Project_Demo/App_Interface.jpeg" alt="Mobile App Interface" width="250">
 
 ---
 
