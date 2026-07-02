@@ -75,17 +75,7 @@ Automatic-Power-Cut-Off-Timer/
 
 ## Project Demonstration
 
-### Hardware Setup
-
-<img src="Project_Demo/Project_Setup.jpeg" alt="Hardware Setup" width="600">
-
-### Circuit Diagram
-
-<img src="Project_Demo/Circuit_Diagram.png" alt="Circuit Diagram" width="700">
-
-### Mobile Application Interface
-
-<img src="Project_Demo/App_Interface.jpeg" alt="Mobile App Interface" width="250">
+Project demonstration images, including the hardware setup, circuit diagram, and mobile application interface, are available in the **Project_Demo** folder of this repository.
 
 ---
 
